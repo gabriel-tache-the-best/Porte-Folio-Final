@@ -297,13 +297,14 @@ html, body {
     justify-content: center;
     align-items: center;
     padding: 20px;
+    border-radius: 35px;
 }
 
 .project-image1 img {
     width: 500px; /* Largeur augmentée */
     height: 350px; /* Hauteur augmentée */
     object-fit: cover; /* Conserve le cadrage de l'image */
-    border-radius: 10px; /* Conserve les bords arrondis */
+    border-radius: 0px; /* Conserve les bords arrondis */
 }
 
 @media (min-width: 1200px) {
